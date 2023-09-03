@@ -19,5 +19,9 @@ export const styles = StyleSheet.create({
     fontSize: 26,
     lineHeight: 32,
     color: "#1A202C"
-  }
+  },
+  form: {
+    gap: 12,
+    marginTop: 40
+  },
 })
