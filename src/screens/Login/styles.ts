@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 32,
     marginTop: 72,
+    justifyContent: "space-between"
   },
   title: {
     fontFamily: fonts.merriwather.regular,
@@ -28,5 +29,31 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     marginTop: 28
+  },
+  buttonWrapper: {
+    marginTop: 26,
+    gap: 16,
+  },
+  buttonTitle: {
+    fontFamily: fonts.lato.bold,
+    fontSize: 16,
+    lineHeight: 18,
+    color: "#FFFFFF"
+  },
+  buttonLogoView: {
+    flexDirection: "row",
+    gap: 12,
+    alignItems: "center",
+  },
+  register: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  registerText: {
+    fontFamily: fonts.roboto.regular,
+    fontSize: 14,
+    lineHeight: 16,
+    color: "#1A202C"
   },
 })
