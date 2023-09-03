@@ -24,4 +24,9 @@ export const styles = StyleSheet.create({
     gap: 12,
     marginTop: 40
   },
+  utils: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginTop: 28
+  },
 })
